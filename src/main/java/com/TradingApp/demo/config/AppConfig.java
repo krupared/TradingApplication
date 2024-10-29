@@ -8,14 +8,14 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.web.cors.CorsConfigurationSource;
 
-@Configuration
+/*@Configuration
 public class AppConfig {
 
     private final HttpSession httpSession;
 
     public AppConfig(HttpSession httpSession) {
         this.httpSession = httpSession;
-    }
+    }*/
 
     /*SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.sessionManagement(management->management.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -29,5 +29,5 @@ public class AppConfig {
 
     private CorsConfigurationSource corsConfigurationSource() {
         return null;
-    }*/
-}
+    }
+}*/
